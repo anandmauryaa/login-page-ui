@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@600&family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&family=Roboto+Serif:wght@600&family=Roboto:ital,wght@0,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --outlineColor:#1e90ff;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main_box{
+    position: absolute;
+    height: 80vh;
+    width: 40vw;
+}
+
+.heading{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    color: #6fe764;
+    text-transform: capitalize;
+    font-family: 'Redressed', cursive;
+  
+}
+
+.login_box{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    background-color: #ebfaff;
+    height: auto;
+    width: 100%;
+    border: 1px solid #9ca1f0;
+    padding: 40px 50px;
+    border-radius: 2px;
+}
+
+.login_box:hover{
+    box-shadow: 0 0 2px 2px #9ca1f0;
+    background-color: #fff;
+    transition: 0.5s;
+}
+
+label{
+    margin:10px;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+    color: #1118;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+.from_control{
+    font-size: 24px;
+    padding: 5px;
+    border: 1px solid #1b1a1a;
+    outline:#1e90ff;
+    border-radius: 3px;
+
+}
+
+.from_control:focus{
+    box-shadow: 0 0 1px 2px #1e90ff;
+    border: none;
+}
+
+.btn_box{
+    margin-top:40px;
+}
+
+.sb_btn{
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #111;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: #6fe764;
+    border-radius: 3px;
+    
+}
+
+.sb_btn:hover{
+    box-shadow: 0 0 1px 2px #6fe764;
+    background-color: #fff;
+    color: #6fe764;
+    transition: 0.4s;
+}
+
+.footer{
+    padding-top: 20px;
+}
+
+.footer .para{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
